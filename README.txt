@@ -1,3 +1,5 @@
+Collaborated with Immanuel Bareket
+
 1. Explain what you think the MIPs code is doing in a paragraph (3+ lines). Sufficiently summarizing what’s happening in your MIPs code’s disaggregate function is what we expect. Do not guess what the C/C++ code is doing. (5 points)
 The MIPS code uses the stack frame to deallocate enough memory to keep track of each recursive call. 
 Beginning with the first we save 8 words on the stack representing different things about input array, buffer, and small/big array.
